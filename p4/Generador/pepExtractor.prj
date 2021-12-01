@@ -1,0 +1,7 @@
+work	"../../Contador_miguel/Contador.vhd"
+work	"Detector.vhd"
+work	"Generador.vhd"
+work	"Sistema.vhd"
+work	"decodificador.vhd"
+work	"ffD_preset.vhd"
+work	"ffD_reset.vhd"

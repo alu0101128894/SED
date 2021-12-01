@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "E:/Generador Miguel/Generador/Sistema.xst" -ofn "E:/Generador Miguel/Generador/Sistema.syr" 
+xst -intstyle ise -ifn "E:/Generador Miguel/Generador/Sistema.xst" -ofn "E:/Generador Miguel/Generador/Sistema.syr" 
+xst -intstyle ise -ifn "E:/Generador Miguel/Generador/Sistema.xst" -ofn "E:/Generador Miguel/Generador/Sistema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Sistema_map.ncd Sistema.ngd Sistema.pcf 
+par -w -intstyle ise -ol high -t 1 Sistema_map.ncd Sistema.ncd Sistema.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sistema.twx Sistema.ncd -o Sistema.twr Sistema.pcf 
+bitgen -intstyle ise -f Sistema.ut Sistema.ncd 
+xst -intstyle ise -ifn "E:/Generador Miguel/Generador/Sistema.xst" -ofn "E:/Generador Miguel/Generador/Sistema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Sistema_map.ncd Sistema.ngd Sistema.pcf 
+par -w -intstyle ise -ol high -t 1 Sistema_map.ncd Sistema.ncd Sistema.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sistema.twx Sistema.ncd -o Sistema.twr Sistema.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Sistema.ut Sistema.ncd 
+xst -intstyle ise -ifn "E:/Generador Miguel/Generador/Sistema.xst" -ofn "E:/Generador Miguel/Generador/Sistema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+xst -intstyle ise -ifn "C:/sed/practica 4/Generador/Sistema.xst" -ofn "C:/sed/practica 4/Generador/Sistema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc3s100e-cp132-5 "Sistema.ngc" Sistema.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Sistema_map.ncd Sistema.ngd Sistema.pcf 
+par -w -intstyle ise -ol high -t 1 Sistema_map.ncd Sistema.ncd Sistema.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sistema.twx Sistema.ncd -o Sistema.twr Sistema.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f Sistema.ut Sistema.ncd 
+xst -intstyle ise -ifn "C:/sed/practica 4/Generador/Sistema.xst" -ofn "C:/sed/practica 4/Generador/Sistema.syr" 

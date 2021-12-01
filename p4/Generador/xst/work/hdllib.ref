@@ -1,0 +1,14 @@
+EN detector NULL "C:/sed/practica 4/Generador/Detector.vhd" sub00/vhpl04 1525256470
+AR ffd_preset behavioral "C:/sed/practica 4/Generador/ffD_preset.vhd" sub00/vhpl03 1525256469
+AR ffd_reset behavioral "C:/sed/practica 4/Generador/ffD_reset.vhd" sub00/vhpl01 1525256467
+EN ffd_preset NULL "C:/sed/practica 4/Generador/ffD_preset.vhd" sub00/vhpl02 1525256468
+EN sistema NULL "C:/sed/practica 4/Generador/Sistema.vhd" sub00/vhpl12 1525256478
+AR sistema behavioral "C:/sed/practica 4/Generador/Sistema.vhd" sub00/vhpl13 1525256479
+EN generador NULL "C:/sed/practica 4/Generador/Generador.vhd" sub00/vhpl06 1525256472
+AR detector behavioral "C:/sed/practica 4/Generador/Detector.vhd" sub00/vhpl05 1525256471
+EN decodificador NULL E:/Decodificador_Miguel/decodificador.vhd sub00/vhpl10 1525256476
+AR decodificador behavioral E:/Decodificador_Miguel/decodificador.vhd sub00/vhpl11 1525256477
+EN contador NULL E:/Contador_miguel/Contador.vhd sub00/vhpl08 1525256474
+EN ffd_reset NULL "C:/sed/practica 4/Generador/ffD_reset.vhd" sub00/vhpl00 1525256466
+AR contador behavioral E:/Contador_miguel/Contador.vhd sub00/vhpl09 1525256475
+AR generador behavioral "C:/sed/practica 4/Generador/Generador.vhd" sub00/vhpl07 1525256473

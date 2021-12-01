@@ -1,0 +1,5 @@
+set -tmpdir "C:/sed/practica 4/Generador/xst/projnav.tmp"
+set -xsthdpdir "C:/sed/practica 4/Generador/xst"
+elaborate
+-ifn Sistema.prj
+-ifmt mixed

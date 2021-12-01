@@ -1,0 +1,7 @@
+vhdl work "ffD_reset.vhd"
+vhdl work "ffD_preset.vhd"
+vhdl work "Generador.vhd"
+vhdl work "Detector.vhd"
+vhdl work "decodificador.vhd"
+vhdl work "../../Contador_miguel/Contador.vhd"
+vhdl work "Sistema.vhd"

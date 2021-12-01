@@ -1,0 +1,7 @@
+vhdl work "C:\sed\practica 4\Generador\ffD_reset.vhd"
+vhdl work "C:\sed\practica 4\Generador\ffD_preset.vhd"
+vhdl work "E:\Decodificador_Miguel\decodificador.vhd"
+vhdl work "E:\Contador_miguel\Contador.vhd"
+vhdl work "C:\sed\practica 4\Generador\Generador.vhd"
+vhdl work "C:\sed\practica 4\Generador\Detector.vhd"
+vhdl work "C:\sed\practica 4\Generador\Sistema.vhd"

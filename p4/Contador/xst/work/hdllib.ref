@@ -1,0 +1,8 @@
+AR ffd_reset behavioral "E:/Project Navigator/Contador_miguel/ffD_reset.vhd" sub00/vhpl01 1523464468
+EN sistema NULL "E:/Project Navigator/Contador_miguel/Sistema.vhd" sub00/vhpl04 1523464473
+AR sistema behavioral "E:/Project Navigator/Contador_miguel/Sistema.vhd" sub00/vhpl07 1523464474
+EN decodificador NULL "E:/Project Navigator/Contador_miguel/decodificador.vhd" sub00/vhpl05 1523464469
+AR decodificador behavioral "E:/Project Navigator/Contador_miguel/decodificador.vhd" sub00/vhpl06 1523464470
+EN contador NULL "E:/Project Navigator/Contador_miguel/Contador.vhd" sub00/vhpl02 1523464471
+EN ffd_reset NULL "E:/Project Navigator/Contador_miguel/ffD_reset.vhd" sub00/vhpl00 1523464467
+AR contador behavioral "E:/Project Navigator/Contador_miguel/Contador.vhd" sub00/vhpl03 1523464472

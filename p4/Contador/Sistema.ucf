@@ -1,0 +1,12 @@
+NET "ce" LOC = "P11";  # Bank = 2, Signal name = SW0
+NET "clk" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "reset" LOC = "G12"; # Bank = 0, Signal name = BTN0
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "led[0]" LOC = "L14";
+NET "led[1]" LOC = "H12";
+NET "led[2]" LOC = "N14";
+NET "led[3]" LOC = "N11";
+NET "led[4]" LOC = "P12";
+NET "led[5]" LOC = "L13";
+NET "led[6]" LOC = "M12";

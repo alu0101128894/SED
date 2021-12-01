@@ -1,0 +1,453 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Reading design: Sistema.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Sistema.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Sistema"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Sistema
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/sed/practica 4/Generador/ffD_reset.vhd" in Library work.
+Architecture behavioral of Entity ffd_reset is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/ffD_preset.vhd" in Library work.
+Architecture behavioral of Entity ffd_preset is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Detector.vhd" in Library work.
+Architecture behavioral of Entity detector is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Generador.vhd" in Library work.
+Architecture behavioral of Entity generador is up to date.
+Compiling vhdl file "E:/Contador_miguel/Contador.vhd" in Library work.
+Architecture behavioral of Entity contador is up to date.
+Compiling vhdl file "E:/Decodificador_Miguel/decodificador.vhd" in Library work.
+Architecture behavioral of Entity decodificador is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Sistema.vhd" in Library work.
+Architecture behavioral of Entity sistema is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Sistema> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Detector> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Generador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decodificador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ffD_reset> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ffD_preset> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Sistema> in library <work> (Architecture <behavioral>).
+Entity <Sistema> analyzed. Unit <Sistema> generated.
+
+Analyzing Entity <Detector> in library <work> (Architecture <behavioral>).
+Entity <Detector> analyzed. Unit <Detector> generated.
+
+Analyzing Entity <ffD_reset> in library <work> (Architecture <behavioral>).
+Entity <ffD_reset> analyzed. Unit <ffD_reset> generated.
+
+Analyzing Entity <Generador> in library <work> (Architecture <behavioral>).
+Entity <Generador> analyzed. Unit <Generador> generated.
+
+Analyzing Entity <ffD_preset> in library <work> (Architecture <behavioral>).
+Entity <ffD_preset> analyzed. Unit <ffD_preset> generated.
+
+Analyzing Entity <Contador> in library <work> (Architecture <behavioral>).
+Entity <Contador> analyzed. Unit <Contador> generated.
+
+Analyzing Entity <Decodificador> in library <work> (Architecture <behavioral>).
+Entity <Decodificador> analyzed. Unit <Decodificador> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Decodificador>.
+    Related source file is "E:/Decodificador_Miguel/decodificador.vhd".
+Unit <Decodificador> synthesized.
+
+
+Synthesizing Unit <ffD_reset>.
+    Related source file is "C:/sed/practica 4/Generador/ffD_reset.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ffD_reset> synthesized.
+
+
+Synthesizing Unit <ffD_preset>.
+    Related source file is "C:/sed/practica 4/Generador/ffD_preset.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ffD_preset> synthesized.
+
+
+Synthesizing Unit <Detector>.
+    Related source file is "C:/sed/practica 4/Generador/Detector.vhd".
+WARNING:Xst:1780 - Signal <d> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <c> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Detector> synthesized.
+
+
+Synthesizing Unit <Generador>.
+    Related source file is "C:/sed/practica 4/Generador/Generador.vhd".
+    Found 1-bit xor2 for signal <da>.
+Unit <Generador> synthesized.
+
+
+Synthesizing Unit <Contador>.
+    Related source file is "E:/Contador_miguel/Contador.vhd".
+    Found 1-bit xor2 for signal <dc$xor0000> created at line 88.
+Unit <Contador> synthesized.
+
+
+Synthesizing Unit <Sistema>.
+    Related source file is "C:/sed/practica 4/Generador/Sistema.vhd".
+WARNING:Xst:1780 - Signal <y1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Sistema> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 13
+ 1-bit register                                        : 13
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Sistema> ...
+
+Optimizing unit <Generador> ...
+
+Optimizing unit <Contador> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Sistema, actual ratio is 1.
+
+Final Macro Processing ...
+
+Processing Unit <Sistema> :
+	Found 5-bit shift register for signal <Inst_Generador/Unit_F/q>.
+Unit <Sistema> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Shift Registers                                      : 1
+ 5-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Sistema.ngr
+Top Level Output File Name         : Sistema
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 17
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 5
+#      LUT4                        : 7
+#      VCC                         : 1
+# FlipFlops/Latches                : 14
+#      FDCE                        : 6
+#      FDE                         : 1
+#      FDPE                        : 7
+# Shift Registers                  : 1
+#      SRL16E                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 3
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                        9  out of    960     0%  
+ Number of Slice Flip Flops:             14  out of   1920     0%  
+ Number of 4 input LUTs:                 16  out of   1920     0%  
+    Number used as logic:                15
+    Number used as Shift registers:       1
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of     83    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+preset                             | IBUF                   | 7     |
+reset                              | IBUF                   | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.492ns (Maximum Frequency: 286.369MHz)
+   Minimum input arrival time before clock: 2.382ns
+   Maximum output required time after clock: 5.597ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.492ns (frequency: 286.369MHz)
+  Total number of paths / destination ports: 37 / 18
+-------------------------------------------------------------------------
+Delay:               3.492ns (Levels of Logic = 0)
+  Source:            Inst_Generador/Unit_F/Mshreg_q (FF)
+  Destination:       Inst_Generador/Unit_F/q1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_Generador/Unit_F/Mshreg_q to Inst_Generador/Unit_F/q1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16E:CLK->Q         1   3.224   0.000  Inst_Generador/Unit_F/Mshreg_q (Inst_Generador/Unit_F/Mshreg_q)
+     FDE:D                     0.268          Inst_Generador/Unit_F/q1
+    ----------------------------------------
+    Total                      3.492ns (3.492ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              2.382ns (Levels of Logic = 1)
+  Source:            ce (PAD)
+  Destination:       Inst_Detector/Unit_A/q (FF)
+  Destination Clock: clk rising
+
+  Data Path: ce to Inst_Detector/Unit_A/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.106   0.793  ce_IBUF (ce_IBUF)
+     FDCE:CE                   0.483          Inst_Detector/Unit_B/q
+    ----------------------------------------
+    Total                      2.382ns (1.589ns logic, 0.793ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 31 / 9
+-------------------------------------------------------------------------
+Offset:              5.597ns (Levels of Logic = 2)
+  Source:            Inst_Contador/Unit_D/q (FF)
+  Destination:       seg<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_Contador/Unit_D/q to seg<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.514   0.945  Inst_Contador/Unit_D/q (Inst_Contador/Unit_D/q)
+     LUT4:I0->O            1   0.612   0.357  Inst_Decodificador/led_5_or00001 (seg_5_OBUF)
+     OBUF:I->O                 3.169          seg_5_OBUF (seg<5>)
+    ----------------------------------------
+    Total                      5.597ns (4.295ns logic, 1.302ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.74 secs
+ 
+--> 
+
+Total memory usage is 184572 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

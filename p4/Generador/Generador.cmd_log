@@ -1,0 +1,2 @@
+vhdtdtfi -prj Generador -o "E:/Generador Miguel/Generador/Generador.vhi" -lib work "E:/Generador Miguel/Generador//Generador.vhd" -module Generador -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj Generador -o "E:/Generador Miguel/Generador/Generador.vhi" -lib work "E:/Generador Miguel/Generador//Generador.vhd" -module Generador -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

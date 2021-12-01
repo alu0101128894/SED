@@ -1,0 +1,1 @@
+vhdtdtfi -prj Generador -o "E:/Generador Miguel/Generador/ffD_preset.vhi" -lib work "E:/Generador Miguel/Generador//ffD_preset.vhd" -module ffD_preset -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

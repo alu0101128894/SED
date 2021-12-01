@@ -1,0 +1,45 @@
+V3 33
+FL "C:/sed/practica 4/Generador/Detector.vhd" 2018/04/25.17:14:46 M.81d
+EN work/Detector 1525256470 FL "C:/sed/practica 4/Generador/Detector.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Detector/Behavioral 1525256471 \
+      FL "C:/sed/practica 4/Generador/Detector.vhd" EN work/Detector 1525256470 \
+      CP ffD_reset
+FL "C:/sed/practica 4/Generador/ffD_preset.vhd" 2018/04/25.17:12:56 M.81d
+EN work/ffD_preset 1525256468 FL "C:/sed/practica 4/Generador/ffD_preset.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ffD_preset/Behavioral 1525256469 \
+      FL "C:/sed/practica 4/Generador/ffD_preset.vhd" EN work/ffD_preset 1525256468
+FL "C:/sed/practica 4/Generador/ffD_reset.vhd" 2018/04/11.16:32:50 M.81d
+EN work/ffD_reset 1525256466 FL "C:/sed/practica 4/Generador/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ffD_reset/Behavioral 1525256467 \
+      FL "C:/sed/practica 4/Generador/ffD_reset.vhd" EN work/ffD_reset 1525256466
+FL "C:/sed/practica 4/Generador/Generador.vhd" 2018/04/25.17:29:28 M.81d
+EN work/Generador 1525256472 FL "C:/sed/practica 4/Generador/Generador.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Generador/Behavioral 1525256473 \
+      FL "C:/sed/practica 4/Generador/Generador.vhd" EN work/Generador 1525256472 \
+      CP ffD_preset
+FL "C:/sed/practica 4/Generador/Sistema.vhd" 2018/04/25.17:23:58 M.81d
+EN work/Sistema 1525256478 FL "C:/sed/practica 4/Generador/Sistema.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Sistema/Behavioral 1525256479 \
+      FL "C:/sed/practica 4/Generador/Sistema.vhd" EN work/Sistema 1525256478 \
+      CP Detector CP Generador CP Contador CP Decodificador
+FL E:/Contador_miguel/Contador.vhd 2018/04/11.15:54:40 M.81d
+EN work/Contador 1525256474 FL E:/Contador_miguel/Contador.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/Contador/Behavioral 1525256475 \
+      FL E:/Contador_miguel/Contador.vhd EN work/Contador 1525256474 CP ffD_reset
+FL E:/Decodificador_Miguel/decodificador.vhd 2018/03/07.18:46:18 M.81d
+EN work/decodificador 1525256476 FL E:/Decodificador_Miguel/decodificador.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/decodificador/Behavioral 1525256477 \
+      FL E:/Decodificador_Miguel/decodificador.vhd EN work/decodificador 1525256476
+FL "E:/Generador Miguel/Generador/decodificador.vhd" 2018/03/07.18:46:18 M.81d
+FL "E:/Generador Miguel/Generador/Detector.vhd" 2018/04/25.17:14:46 M.81d
+FL "E:/Generador Miguel/Generador/ffD_preset.vhd" 2018/04/25.17:12:56 M.81d
+FL "E:/Generador Miguel/Generador/ffD_reset.vhd" 2018/04/11.16:32:50 M.81d
+FL "E:/Generador Miguel/Generador/Generador.vhd" 2018/04/25.17:29:28 M.81d
+FL "E:/Generador Miguel/Generador/Sistema.vhd" 2018/04/25.17:23:58 M.81d

@@ -1,0 +1,8 @@
+vhdl isim_temp "ffD_reset.vhd"
+vhdl isim_temp "ffD_preset.vhd"
+vhdl isim_temp "Generador.vhd"
+vhdl isim_temp "Detector.vhd"
+vhdl isim_temp "decodificador.vhd"
+vhdl isim_temp "../../Contador_miguel/Contador.vhd"
+vhdl isim_temp "Sistema.vhd"
+vhdl isim_temp "Sistema_tb.vhd"

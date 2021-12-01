@@ -1,0 +1,27 @@
+V3 15
+FL "E:/Project Navigator/Contador_miguel/Contador.vhd" 2018/04/11.15:54:40 M.81d
+EN work/Contador 1523464471 \
+      FL "E:/Project Navigator/Contador_miguel/Contador.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Contador/Behavioral 1523464472 \
+      FL "E:/Project Navigator/Contador_miguel/Contador.vhd" EN work/Contador 1523464471 \
+      CP ffD_reset
+FL "E:/Project Navigator/Contador_miguel/decodificador.vhd" 2018/03/07.18:46:18 M.81d
+EN work/decodificador 1523464469 \
+      FL "E:/Project Navigator/Contador_miguel/decodificador.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/decodificador/Behavioral 1523464470 \
+      FL "E:/Project Navigator/Contador_miguel/decodificador.vhd" \
+      EN work/decodificador 1523464469
+FL "E:/Project Navigator/Contador_miguel/ffD_reset.vhd" 2018/04/11.16:32:50 M.81d
+EN work/ffD_reset 1523464467 \
+      FL "E:/Project Navigator/Contador_miguel/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ffD_reset/Behavioral 1523464468 \
+      FL "E:/Project Navigator/Contador_miguel/ffD_reset.vhd" EN work/ffD_reset 1523464467
+FL "E:/Project Navigator/Contador_miguel/Sistema.vhd" 2018/04/11.17:34:18 M.81d
+EN work/Sistema 1523464473 FL "E:/Project Navigator/Contador_miguel/Sistema.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Sistema/Behavioral 1523464474 \
+      FL "E:/Project Navigator/Contador_miguel/Sistema.vhd" EN work/Sistema 1523464473 \
+      CP decodificador CP Contador

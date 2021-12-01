@@ -1,0 +1,46 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/sed/practica 4/Generador/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to C:/sed/practica 4/Generador/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/sed/practica 4/Generador/ffD_reset.vhd" in Library work.
+Architecture behavioral of Entity ffd_reset is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/ffD_preset.vhd" in Library work.
+Architecture behavioral of Entity ffd_preset is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Detector.vhd" in Library work.
+Architecture behavioral of Entity detector is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Generador.vhd" in Library work.
+Architecture behavioral of Entity generador is up to date.
+Compiling vhdl file "E:/Contador_miguel/Contador.vhd" in Library work.
+Architecture behavioral of Entity contador is up to date.
+Compiling vhdl file "E:/Decodificador_Miguel/decodificador.vhd" in Library work.
+Architecture behavioral of Entity decodificador is up to date.
+Compiling vhdl file "C:/sed/practica 4/Generador/Sistema.vhd" in Library work.
+Architecture behavioral of Entity sistema is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.09 secs
+ 
+--> 
+
+Total memory usage is 153888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
