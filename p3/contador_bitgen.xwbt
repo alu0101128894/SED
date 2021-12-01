@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\private\Documentos\Sistemas Electronicos Digitales\p3\contador.ncd
+OUTFILE=Z:\private\Documentos\Sistemas Electronicos Digitales\p3\contador.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=Z:\private\Documentos\Sistemas Electronicos Digitales\p3
+LICENSE=WebPack
+USER_INFO=174128351_0_878

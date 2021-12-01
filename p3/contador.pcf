@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map M.81d on Tue Apr 24 14:29:17 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C11" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "count<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "count<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "count<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "count<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "reset" LOCATE = SITE "G12" LEVEL 1;
+COMP "ce" LOCATE = SITE "P11" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

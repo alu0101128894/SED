@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;count[0]&quot; LOC = M5 ;&gt; [contador.ucf(4)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">count[0]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="204" delta="new" >A target design object for the <arg fmt="%s" index="1">Locate</arg> constraint &apos;<arg fmt="%s" index="2">&lt;NET &quot;count[0]&quot; LOC = M5 ;&gt; [contador.ucf(4)]</arg>&apos; could not be found and so the <arg fmt="%s" index="3">Locate</arg> constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;count[1]&quot; LOC = M11 ;&gt; [contador.ucf(5)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">count[1]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="204" delta="new" >A target design object for the <arg fmt="%s" index="1">Locate</arg> constraint &apos;<arg fmt="%s" index="2">&lt;NET &quot;count[1]&quot; LOC = M11 ;&gt; [contador.ucf(5)]</arg>&apos; could not be found and so the <arg fmt="%s" index="3">Locate</arg> constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;count[2]&quot; LOC = P7 ;&gt; [contador.ucf(6)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">count[2]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="204" delta="new" >A target design object for the <arg fmt="%s" index="1">Locate</arg> constraint &apos;<arg fmt="%s" index="2">&lt;NET &quot;count[2]&quot; LOC = P7 ;&gt; [contador.ucf(6)]</arg>&apos; could not be found and so the <arg fmt="%s" index="3">Locate</arg> constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;count[3]&quot; LOC = P6 ;&gt; [contador.ucf(7)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">count[3]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="204" delta="new" >A target design object for the <arg fmt="%s" index="1">Locate</arg> constraint &apos;<arg fmt="%s" index="2">&lt;NET &quot;count[3]&quot; LOC = P6 ;&gt; [contador.ucf(7)]</arg>&apos; could not be found and so the <arg fmt="%s" index="3">Locate</arg> constraint will be removed.
+</msg>
+
+</messages>
+

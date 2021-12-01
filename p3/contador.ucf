@@ -1,0 +1,27 @@
+
+NET "ce" LOC = P11 ;  # Bank = 2, Signal name = SW
+NET "clk" LOC = C11 ; # Bank = 2, Signal name = BTN1
+NET "count[0]" LOC = M5 ;  # Bank = 2, Signal name = LD0
+NET "count[1]" LOC = M11 ; # Bank = 2, Signal name = LD1
+NET "count[2]" LOC = P7 ; # Bank = 3, Signal name = LD2
+NET "count[3]" LOC = P6 ; # Bank = 2, Signal name = LD3
+NET "reset" LOC = G12; # Bank = 0, Signal name = BTN0
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+
+
+
+
+
+
+
+#NET "ce" LOC = "L3";
+#NET "clk" LOC = "G12";
+#NET "count[0]" LOC = "M5";
+#NET "count[1]"LOC = "M11";
+#NET "count[2]"LOC = "P7";
+#NET "count[3]"LOC = "P6";
+#NET "reset" LOC = "P11";
+#NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+	
