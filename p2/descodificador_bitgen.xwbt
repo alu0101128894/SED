@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\SED\p2_sed\descodificador.ncd
+OUTFILE=C:\SED\p2_sed\descodificador.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\SED\p2_sed
+LICENSE=WebPack
+USER_INFO=174128351_0_878
