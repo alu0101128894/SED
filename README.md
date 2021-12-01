@@ -1,7 +1,7 @@
 # Sistemas Electrónicos Digitales
 
 Repositorio para las prácticas de la asignatura de Sistemas Electrónicos Digitales - **1º Año de carrera**
-- Curso 2021-2022
+- Curso 2017-2018
 - Alumno: José Javier Díaz González
 
 ### Listado de prácticas:
