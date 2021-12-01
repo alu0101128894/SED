@@ -1,0 +1,4 @@
+vhdl work "ffD_reset.vhd"
+vhdl work "contador.vhd"
+vhdl work "../p2_sed/p2_sed.vhd"
+vhdl work "sistema.vhd"

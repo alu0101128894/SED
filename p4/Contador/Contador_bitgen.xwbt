@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Project Navigator\Contador_miguel\Contador.ncd
+OUTFILE=E:\Project Navigator\Contador_miguel\Contador.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=E:\Project Navigator\Contador_miguel
+LICENSE=WebPack
+USER_INFO=174128351_0_878

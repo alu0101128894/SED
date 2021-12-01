@@ -1,0 +1,2 @@
+vhdtdtfi -prj p3 -o C:/SED/p3/ffD_reset.vhi -lib work C:/SED/p3//ffD_reset.vhd -module ffD_reset -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj p3 -o C:/SED/p3/ffD_reset.vhi -lib work C:/SED/p3//ffD_reset.vhd -module ffD_reset -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

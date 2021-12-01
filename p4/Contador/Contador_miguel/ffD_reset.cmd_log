@@ -1,0 +1,1 @@
+vhdtdtfi -prj Contador -o C:/Users/alu0101101507/Contador/ffD_reset.vhi -lib work C:/Users/alu0101101507/Contador//ffD_reset.vhd -module ffD_reset -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

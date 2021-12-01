@@ -1,0 +1,25 @@
+V3 19
+FL "//siga01.stic.ull.es/alu0101128894/private/Documentos/Sistemas Electronicos Digitales/p3/contador.vhd" 2018/04/04.12:38:20 M.81d
+FL "//siga01.stic.ull.es/alu0101128894/private/Documentos/Sistemas Electronicos Digitales/p3/ffD_reset.vhd" 2018/04/04.12:23:30 M.81d
+FL "C:/sed javi/p2_sed/p2_sed.vhd" 2018/03/14.14:47:36 M.81d
+EN work/descodificador 1524578093 FL "C:/sed javi/p2_sed/p2_sed.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/descodificador/Behavioral 1524578094 \
+      FL "C:/sed javi/p2_sed/p2_sed.vhd" EN work/descodificador 1524578093
+FL "C:/sed javi/p3/contador.vhd" 2018/04/04.12:38:20 M.81d
+EN work/contador 1524578095 FL "C:/sed javi/p3/contador.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/contador/Behavioral 1524578096 \
+      FL "C:/sed javi/p3/contador.vhd" EN work/contador 1524578095 CP ffD_reset
+FL "C:/sed javi/p3/ffD_reset.vhd" 2018/04/04.12:23:30 M.81d
+EN work/ffD_reset 1524578091 FL "C:/sed javi/p3/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ffD_reset/Behavioral 1524578092 \
+      FL "C:/sed javi/p3/ffD_reset.vhd" EN work/ffD_reset 1524578091
+FL "C:/sed javi/p3/sistema.vhd" 2018/04/24.14:45:55 M.81d
+EN work/sistema 1524578097 FL "C:/sed javi/p3/sistema.vhd" PB ieee/std_logic_1164 1290154108
+AR work/sistema/Behavioral 1524578098 \
+      FL "C:/sed javi/p3/sistema.vhd" EN work/sistema 1524578097 CP descodificador \
+      CP contador
+FL C:/SED/p3/contador.vhd 2018/04/04.12:38:20 M.81d
+FL C:/SED/p3/ffD_reset.vhd 2018/04/04.12:23:30 M.81d

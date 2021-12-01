@@ -1,0 +1,3 @@
+vhdl isim_temp "ffD_reset.vhd"
+vhdl isim_temp "contador.vhd"
+vhdl isim_temp "contador_tb.vhd"

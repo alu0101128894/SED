@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/sed javi/p3/sistema.xst" -ofn "C:/sed javi/p3/sistema.syr" 
+xst -intstyle ise -ifn "C:/sed javi/p3/sistema.xst" -ofn "C:/sed javi/p3/sistema.syr" 
+xst -intstyle ise -ifn "C:/sed javi/p3/sistema.xst" -ofn "C:/sed javi/p3/sistema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contador.ucf -p xc3s100e-cp132-5 "sistema.ngc" sistema.ngd  

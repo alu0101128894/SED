@@ -1,0 +1,4 @@
+vhdl isim_temp "ffD_reset.vhd"
+vhdl isim_temp "contador.vhd"
+vhdl isim_temp "../p2_sed/p2_sed.vhd"
+vhdl isim_temp "sistema.vhd"

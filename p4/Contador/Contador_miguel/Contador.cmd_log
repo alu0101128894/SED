@@ -1,0 +1,1 @@
+vhdtdtfi -prj Contador -o C:/Users/alu0101101507/Contador/Contador.vhi -lib work C:/Users/alu0101101507/Contador//Contador.vhd -module Contador -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

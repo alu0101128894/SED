@@ -1,0 +1,36 @@
+Release 12.4 ngdbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s100e-cp132-5 Contador.ngc
+Contador.ngd
+
+Reading NGO file "E:/Project Navigator/Contador_miguel/Contador.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Contador.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 99552 kilobytes
+
+Writing NGD file "Contador.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "Contador.bld"...

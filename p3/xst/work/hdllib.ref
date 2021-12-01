@@ -1,0 +1,8 @@
+AR ffd_reset behavioral "C:/sed javi/p3/ffD_reset.vhd" sub00/vhpl01 1524578092
+EN sistema NULL "C:/sed javi/p3/sistema.vhd" sub00/vhpl06 1524578097
+EN descodificador NULL "C:/sed javi/p2_sed/p2_sed.vhd" sub00/vhpl04 1524578093
+AR sistema behavioral "C:/sed javi/p3/sistema.vhd" sub00/vhpl07 1524578098
+AR descodificador behavioral "C:/sed javi/p2_sed/p2_sed.vhd" sub00/vhpl05 1524578094
+EN contador NULL "C:/sed javi/p3/contador.vhd" sub00/vhpl02 1524578095
+EN ffd_reset NULL "C:/sed javi/p3/ffD_reset.vhd" sub00/vhpl00 1524578091
+AR contador behavioral "C:/sed javi/p3/contador.vhd" sub00/vhpl03 1524578096
