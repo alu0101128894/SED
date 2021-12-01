@@ -1,12 +1,12 @@
 # Sistemas Electrónicos Digitales
 
 Repositorio para las prácticas de la asignatura de Sistemas Electrónicos Digitales - **1º Año de carrera**
+- Curso 2021-2022
+- Alumno: José Javier Díaz González
 
-## [Práctica 2](https://github.com/alu0101128894/SED/tree/main/p2)
-Lenguaje  VHDL - Implementación + Descodificador
+### Listado de prácticas:
+#### [Práctica 2](https://github.com/alu0101128894/SED/tree/main/p2). Lenguaje  VHDL - Implementación + Descodificador
 
-## [Práctica 3](https://github.com/alu0101128894/SED/tree/main/p3)
-Lenguaje  VHDL - Implementación + Descodificador + Contador
+#### [Práctica 3](https://github.com/alu0101128894/SED/tree/main/p3). Lenguaje  VHDL - Implementación + Descodificador + Contador
 
-## [Práctica 4](https://github.com/alu0101128894/SED/tree/main/p4)
-Lenguaje  VHDL - Implementación + Descodificador + Contador + Generador
+#### [Práctica 4](https://github.com/alu0101128894/SED/tree/main/p4). Lenguaje  VHDL - Implementación + Descodificador + Contador + Generador
